@@ -98,7 +98,7 @@ let compiler = {
 
     },
     stopIteration: () => {
-        for (let i = 0; i <= compiler.timeoutElement; i++) { // stop iteration
+        for (let i = 0; i <= compiler.timeoutElement; i++) {
             clearTimeout(i)
         }
         compiler.isProcess = false
